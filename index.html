@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+<img src="weather_app_logo-removebg-preview.png" alt="Logo" class="logo2">
+    <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="app-container">
+    <h1> Weather Info</h1>
+
+    <div class="search-box">
+        <input type="text" placeholder="Enter city name">
+        <button>Search</button>
+    </div>
+
+    <div class="weather-card">
+        <img id="weatherIcon" alt="Weather Icon" />
+        <h2>City Name</h2>
+        <p class="temperature">0 °C</p>
+        <p>Weather Condition</p>
+        <div class="details">
+            <p>Humidity: 0%</p>
+            <p>Wind: 0 km/h</p>
+        </div>
+    </div>
+</div>
+
+<div class="history-box">
+    <h3>Recent Searches</h3>
+    <ul id="historyList"></ul>
+    <button id="clearHistory">Clear History</button>
+</div>
+<footer class="footer">
+    <p>© 2026 Weather App | Built with HTML, CSS & JavaScript</p>
+    <p>Data powered by OpenWeather API</p>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
