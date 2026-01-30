@@ -30,6 +30,3 @@ A responsive Weather App built using HTML, CSS, and JavaScript that allows users
 https://weather-app-api01.netlify.app/
 
 ---
-
-## 📁 Project Structure
-
